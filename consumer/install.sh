@@ -2,7 +2,7 @@ uv venv
 . .venv/bin/activate
 
 # install from main
-uv pip install git+https://github.com/mattfysh/uvref@pkg@0.1.0#subdirectory=packages/pkg
+uv pip install git+https://github.com/mattfysh/uvref#subdirectory=packages/pkg
 
 # install from refs/tag/pkg@0.1.0
 # uv pip install git+https://github.com/mattfysh/uvref@pkg@0.1.0#subdirectory=packages/pkg
